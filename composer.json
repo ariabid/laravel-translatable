@@ -1,0 +1,15 @@
+{
+    "name": "ariabid/laravel-translatable",
+    "authors": [
+        {
+            "name": "Abid Raza",
+            "email": "ari.abid@gmail.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "AriAbid\\LaravelTranslatable": "src/"
+        }
+    }
+}
