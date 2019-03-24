@@ -6,10 +6,13 @@
             "email": "ari.abid@gmail.com"
         }
     ],
+    "minimum-stability": "dev",
     "require": {},
-    "autoload": {
-        "psr-4": {
-            "AriAbid\\LaravelTranslatable": "src/"
+    "extra": {
+        "laravel": {
+            "providers": [
+                "AriAbid\\LaravelTranslatable\\LaravelTranslatableServiceProvider"
+            ]
         }
     }
 }
